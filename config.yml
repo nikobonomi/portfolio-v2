@@ -1,0 +1,286 @@
+## Example Config file
+baseURL: "https://nikobonomi.dev"
+theme: "terminalcv"
+title: "nikobonomi.dev"
+
+params:
+  version: "2.0.0"
+  description: "Niko Bonomi CV"
+  blog: false
+  prompt:
+    core:
+      text: "guest@nikobonomi.dev"
+      color: "pink"
+      before: "["
+      beforeColor: "red"
+      after: '\]'
+      afterColor: "red"
+      # separator: '-'
+    separator:
+      text: "-"
+      # color:
+    path:
+      before: "["
+      beforeColor: "red"
+      text: "~/home"
+      color: "green"
+      after: '\]'
+      afterColor: "red"
+    extra:
+      text: ": "
+      color: "orange"
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  listLS: true
+  #exitLocation: "about:blank"
+  exitMessage: "[Session completed, the browserwindow can be safely closed]"
+  source: false
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: |
+    ‎
+        _   ___ __         ____                              _ 
+       / | / (_) /______  / __ )____  ____  ____  ____ ___  (_)
+      /  |/ / / //_/ __ \/ __  / __ \/ __ \/ __ \/ __ `__ \/ / 
+     / /|  / / ,< / /_/ / /_/ / /_/ / / / / /_/ / / / / / / /  
+    /_/ |_/_/_/|_|\____/_____/\____/_/ /_/\____/_/ /_/ /_/_/   
+                                                               
+
+    Hello there!
+    I’m Niko, a “full-stack” software engineer
+
+    I currently work @ Swiss Post, actively developping modern solutions for customers and internal consumers.
+
+    Start by typing 'help' for a list of available commands
+
+  bootsequence: |
+    User request detected
+    Reserving Cloud Resources
+    ............................
+    Cloud Network ready
+    ........
+    Cloud Instance ready
+    .......................
+    Internet Breakout Ready, but Pong is preferred 
+
+    Inititating CloudOS
+    CloudOS Kernel Version 1.4.2: Sat February 29 23:21:41 CEST 2025; root:xnu-1699.22.73~1/RELEASE_ARM_64
+    Loglevel = quiet
+    ......
+    ............
+    ..................
+    ........................
+    ..............................
+    ....................................
+
+    Copyright 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+    The Regents of the University of California. All rights reserved.
+
+    Copyright 2024, 2025
+    TerminalCV. MIT License (MIT)
+
+    [CloudOSBoot1]: ready
+    [CloudOSBoot2]: ready
+    [Webserver]: ready 
+    [HUGO]: ready
+    [TerminalCV]: ready
+
+    Boot Complete, accepting user input.
+
+  whois:
+    # settings:
+    #   useLess: true
+    details:
+      name: "Niko Bonomi"
+      profession: "Software Developer"
+      location: "Lamone"
+      email: "niko.bonomi@gmail.com"
+      homelink: "https://nikobonomi.dev"
+      description: |
+        Here you can write something catchy about yourself
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+      - name: "Linkedin"
+        url: "https://www.linkedin.com/in/nikobonomi/?locale=en_US"
+      - name: "Google Scholar"
+        url: "https://scholar.google.com/citations?user=dsx_h0kAAAAJ&hl=it&oi=ao"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+      - jobTitle: DevOps Software Eingenieer
+        #color: yellow
+        company: "Swiss Post Ltd"
+        location: Bellinzona
+        date: March 2023 - Present
+        description: Some description about this red title job
+
+      - jobTitle: Applied research - Software development
+        #color: Green
+        company: "University of Applied Sciences and Arts Southern Switzerland"
+        location: Lugano
+        date: Jenuary 2019  - February 2023
+        description: Some description about this purple job
+
+      - jobTitle: Sofware Developer
+        company: "Cantonal Hospital - EOC"
+        #color: lightblue
+        location: Bellinzona
+        date: September 2014 - December 2018
+        description: Description about this default color job
+
+  education:
+    details:
+      - courseName: Master of Science in Engineering - MSE
+        date: 2019 - 2022
+        description: With specialization /"Internet of Things/" @ SUPSI Lugano
+
+      - courseName: Bachelor Of Science
+        date: 2014 - 2018
+        description: Software Engineering @ SUPSI Lugano
+
+      - courseName: Computer Science Apprenticeship, specialization in software development
+        date: 2014 - 2018
+        description: AFC (federal certificate of ability) and MPT (vocational baccalaureate in technology) @ SPAI Locarno
+
+  skills:
+    settings:
+      useLess: false
+    details:
+      - name: Java
+        percentage: 98
+
+      - name: Spring Framework
+        percentage: 90
+
+      - name: Python
+        percentage: 70
+        #description: or you can leave it comented
+        #color: blue
+
+      - name: PostgreSQL
+        percentage: 80
+
+      - name: Amazon Web Services 
+        percentage: 50
+
+      - name: Kubernetes
+        percentage: 80
+
+      - name: Javasscript/AngularJS
+        percentage: 80
+
+      - name: Docker
+        percentage: 90
+
+      - name: GitHub Actions
+        percentage: 80
+
+      - name: ArgoCD
+        percentage: 80
+
+  softskills:
+    # settings:
+    #   useLess: true
+    details:
+      - name: Motivation
+        #color: red
+        #description:
+        percentage: 95
+
+      - name: Team-work
+        percentage: 100
+        
+      - name: Leadership
+        percentage: 75
+        
+      - name: Communication
+        percentage: 80
+        
+      - name: Support and Mentoring
+        percentage: 90
+        
+      - name: Time Management
+        percentage: 90
+        
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+      - name: Italian
+        percentage: 100
+        description: Mother tongne
+
+      - name: English
+        percentage: 90
+        description: B2 (Business)
+
+      - name: French
+        percentage: 50
+        description: A2 (Good oral skills)
+
+      - name: German
+        percentage: 20
+        description: A2
+
+#   projects:
+#     # settings:
+#     #   useLess: true
+#     details:
+#       - title: Project Red
+#         color: red
+#         date: since 2019
+#         link: https://example.com
+#         description: Describing red stuff
+#   
+#       - title: Project Blue
+#         color: blue
+#         date: since 2016
+#         link: https://example.com/blue
+#         #description: nothing to describe
+#   
+#       - title: Project Default
+#         date: Since 2017
+#         link: https://example.com/default
+#         #description: not there either
+
+  certifications:
+    # settings:
+    #   useLess: true
+    details:
+      - certName: Example Cert
+        company: Example Certifying Company
+        date: Date of Completion
+        badge: https://www.link.to.badge
+        #description: Lorem Ipsum
+
+  miscO:
+    # settings:
+    #   useLess: true
+    commandName: newcommand
+    title: "This Section can have a different command name"
+    titleColor: teal
+    content: |
+      Here the title and the content can have different colors
+      The content can be multi
+
+      line
+
+      And spaces       will be respected as well
+      This section will have the default command: misc
+      but you can name it something else with the property
+      commandName: <String>
+      Give it a shot and try and uncomment the line 
+      commandName: newcommand
+      now instead of misc you can execute the newcommand for this section
+      Auto completion will know it too! :D
+
+    contentColor: orange
