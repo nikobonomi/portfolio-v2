@@ -56,7 +56,7 @@ params:
 
     Start by typing 'help' for a list of available commands
 
-  bootsequence: |
+  _bootsequence: |
     User request detected
     Reserving Cloud Resources
     ............................
