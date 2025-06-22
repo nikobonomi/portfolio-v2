@@ -10,22 +10,22 @@ params:
   prompt:
     core:
       text: "guest@nikobonomi.dev"
-      color: "pink"
+      color: "orange"
       before: "["
-      beforeColor: "red"
+      beforeColor: "orange"
       after: '\]'
-      afterColor: "red"
+      afterColor: "orange"
       # separator: '-'
     separator:
       text: "-"
       # color:
     path:
       before: "["
-      beforeColor: "red"
+      beforeColor: "lime"
       text: "~/home"
-      color: "green"
+      color: "lime"
       after: '\]'
-      afterColor: "red"
+      afterColor: "lime"
     extra:
       text: ": "
       color: "orange"
