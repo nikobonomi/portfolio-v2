@@ -42,13 +42,13 @@ params:
   #use a ‎ (blank character) if your first character of the ascii art is a whitespace
   greeting: |
     ‎
-        _   ___ __         ____                              _ 
-       / | / (_) /______  / __ )____  ____  ____  ____ ___  (_)
-      /  |/ / / //_/ __ \/ __  / __ \/ __ \/ __ \/ __ `__ \/ / 
-     / /|  / / ,< / /_/ / /_/ / /_/ / / / / /_/ / / / / / / /  
-    /_/ |_/_/_/|_|\____/_____/\____/_/ /_/\____/_/ /_/ /_/_/   
-                                                               
-
+     _   _ _ _          _______      __
+    | \ | (_) |        / ____\ \    / /
+    |  \| |_| | _____ | |     \ \  / / 
+    | . ` | | |/ / _ \| |      \ \/ /  
+    | |\  | |   < (_) | |____   \  /   
+    |_| \_|_|_|\_\___/ \_____|   \/    
+                                                                
     Hello there!
     I’m Niko, a “full-stack” software engineer
 
@@ -58,37 +58,45 @@ params:
 
   bootsequence: |
     User request detected
-    Reserving Cloud Resources
+    Allocating Resources for: Niko Bonomi
+    → Provisioning Developer Environment
     ............................
-    Cloud Network ready
-    ........
-    Cloud Instance ready
-    .......................
-    Internet Breakout Ready, but Pong is preferred 
-
-    Inititating CloudOS
-    CloudOS Kernel Version 1.4.2: Sat February 29 23:21:41 CEST 2025; root:xnu-1699.22.73~1/RELEASE_ARM_64
-    Loglevel = quiet
-    ......
-    ............
+    🏔️ Location: Lamone, CH
     ..................
-    ........................
-    ..............................
-    ....................................
-
-    Copyright 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
-    The Regents of the University of California. All rights reserved.
-
-    Copyright 2024, 2025
-    TerminalCV. MIT License (MIT)
-
-    [CloudOSBoot1]: ready
-    [CloudOSBoot2]: ready
-    [Webserver]: ready 
-    [HUGO]: ready
-    [TerminalCV]: ready
-
-    Boot Complete, accepting user input.
+    🏢 Affiliation: Swiss Post Ltd
+    ......
+    🔍 Profiling Expertise: DevOps, Backend, Cloud, Research
+    .......................
+    Internet Breakout Ready — but 'ping nikobonomi.dev' is faster
+    
+    Booting TerminalCV [v1.0.0-niko]
+    Kernel build: Sat Feb 29 23:21:41 CEST 2025; niko:xnu-1699.22.73~dev64
+    Loglevel = quiet
+    .........system warming up..........
+    ......building resume kernel modules......
+    ↪️ java, spring, docker, k8s, git, postgres
+    ↪️ angularjs, python, aws, argocd
+    ↪️ mentoring, team-work, time-management
+    ↪️ italian 🇮🇹 / english 🇬🇧 / french 🇫🇷 / german 🇩🇪
+    .................
+    TerminalCV Init Sequence
+    → Welcome Niko Bonomi
+    → Role: Software Developer | Explorer of Systems
+    → Motto: *Build things that scale, and help others do the same*
+    ..........................
+    🧠 Education Modules:
+    ✓ MSc IoT @ SUPSI
+    ✓ BSc SE + Apprenticeship @ SPAI Locarno
+    .......................
+    
+    All packets reserved — All bugs intentional 🐛
+    
+    [CV_Core]: loaded
+    [HUGO Server]: online
+    [Web Frontend]: active
+    [Terminal I/O]: accepting commands
+    
+    > Boot Completes
 
   whois:
     # settings:
@@ -100,7 +108,9 @@ params:
       email: "niko.bonomi@gmail.com"
       homelink: "https://nikobonomi.dev"
       description: |
-        Here you can write something catchy about yourself
+        Software Engineer by trade, system tinkerer by passion.
+        DevOps, backend, containers and clouds are my playground.
+        I build, break, fix — then automate it all.
 
   social:
     # settings:
@@ -110,7 +120,7 @@ params:
       - name: "Linkedin"
         url: "https://www.linkedin.com/in/nikobonomi/?locale=en_US"
       - name: "Google Scholar"
-        url: "https://scholar.google.com/citations?user=dsx_h0kAAAAJ&hl=it&oi=ao"
+        url: "https://scholar.google.com/citations?user=dsx_h0kAAAAJ"
 
   work:
     # settings:
@@ -120,28 +130,47 @@ params:
         #color: yellow
         company: "Swiss Post Ltd"
         location: Bellinzona
-        date: March 2023 - Present
-        description: Some description about this red title job
+        date: 2023 - Present
+        description: |
+          Developing a cloud-native web application for managing delivery preferences at Swiss Post.
+          Working across the stack (Spring + Angular), integrating with internal services via REST and Kafka,
+          and deploying on Kubernetes with containerized workflows.
 
       - jobTitle: Applied research - Software development
-        #color: Green
         company: "University of Applied Sciences and Arts Southern Switzerland"
         location: Lugano
-        date: Jenuary 2019  - February 2023
-        description: Some description about this purple job
+        date: 2019 - 2023
+        description: |
+          Developed web-based platforms and REST APIs for applied research projects at SUPSI, with a strong focus
+          on integration between software and hardware systems. Contributed to the Mini-Factory project,
+          supporting industrial automation research. Active in Swiss and EU-funded initiatives, covering both
+          implementation and technical coordination tasks
 
       - jobTitle: Sofware Developer
         company: "Cantonal Hospital - EOC"
-        #color: lightblue
         location: Bellinzona
-        date: September 2014 - December 2018
-        description: Description about this default color job
+        date: 2014 - 2018
+        description: |
+          Developed and maintained custom integrations between the CA Service Desk system and internal applications
+          within the hospital’s IT ecosystem. Focused on backend development and automation of service workflows.
+          Initially employed full-time, later reduced to part-time to pursue academic studies while continuing
+          active development work in a complex enterprise environment.
+
+      - jobTitle: Sofware developer apprenticeship
+        company: "Cantonal Hospital - EOC"
+        location: Bellinzona
+        date: 2009 - 2013
+        description: |
+          Started my professional journey as a software developer apprentice at EOC's IT department,
+          gaining hands-on experience with .NET technologies under the guidance of senior developers.
+          Combined practical training with in-class learning, expanding my knowledge in Java, C, and JavaScript.
+          Built a solid foundation in software engineering principles and enterprise IT systems.
 
   education:
     details:
       - courseName: Master of Science in Engineering - MSE
         date: 2019 - 2022
-        description: With specialization /"Internet of Things/" @ SUPSI Lugano
+        description: With specialization in "Internet of Things" @ SUPSI Lugano
 
       - courseName: Bachelor Of Science
         date: 2014 - 2018
@@ -149,7 +178,7 @@ params:
 
       - courseName: Computer Science Apprenticeship, specialization in software development
         date: 2014 - 2018
-        description: AFC (federal certificate of ability) and MPT (vocational baccalaureate in technology) @ SPAI Locarno
+        description: EFZ (Federal Vocational Certificate) and TALS (vocational baccalaureate in technology) @ SPAI Locarno
 
   skills:
     settings:
@@ -240,27 +269,37 @@ params:
 #         date: since 2019
 #         link: https://example.com
 #         description: Describing red stuff
-#   
-#       - title: Project Blue
-#         color: blue
-#         date: since 2016
-#         link: https://example.com/blue
-#         #description: nothing to describe
-#   
-#       - title: Project Default
-#         date: Since 2017
-#         link: https://example.com/default
-#         #description: not there either
+
 
   certifications:
     # settings:
     #   useLess: true
     details:
-      - certName: Example Cert
-        company: Example Certifying Company
-        date: Date of Completion
-        badge: https://www.link.to.badge
+      - certName: Lean IT Foundation
+        company: APMG International
+        date: 2019
+        #badge: https://www.link.to.badge
         #description: Lorem Ipsum
+
+      - certName: COBIT 5 Implementation
+        company: APMG International
+        date: 2018
+
+      - certName: COBIT 5 Foundation
+        company: PeopleCert
+        date: 2018
+
+      - certName: ITIL Service Strategy
+        company: APMG International
+        date: 2017
+
+      - certName: ITIL Service Design
+        company: PeopleCert
+        date: 2017
+
+      - certName: ITIL Foundation
+        company: APMG International
+        date: 2015
 
   miscO:
     # settings:
