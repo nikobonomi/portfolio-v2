@@ -52,7 +52,7 @@ params:
     Hello there!
     I’m Niko, a “full-stack” software engineer
 
-    I currently work @ Swiss Post, actively developping modern solutions for customers and internal consumers.
+    I currently work @ Swiss Post, actively developing modern solutions for customers and internal consumers.
 
     Start by typing 'help' for a list of available commands
 
@@ -126,7 +126,7 @@ params:
     # settings:
     #   useLess: true
     details:
-      - jobTitle: DevOps Software Eingenieer
+      - jobTitle: DevOps Software Engineer
         #color: yellow
         company: "Swiss Post Ltd"
         location: Bellinzona
@@ -146,7 +146,7 @@ params:
           supporting industrial automation research. Active in Swiss and EU-funded initiatives, covering both
           implementation and technical coordination tasks
 
-      - jobTitle: Sofware Developer
+      - jobTitle: Software Developer
         company: "Cantonal Hospital - EOC"
         location: Bellinzona
         date: 2014 - 2018
@@ -156,7 +156,7 @@ params:
           Initially employed full-time, later reduced to part-time to pursue academic studies while continuing
           active development work in a complex enterprise environment.
 
-      - jobTitle: Sofware developer apprenticeship
+      - jobTitle: Software developer apprenticeship
         company: "Cantonal Hospital - EOC"
         location: Bellinzona
         date: 2009 - 2013
@@ -246,7 +246,7 @@ params:
     details:
       - name: Italian
         percentage: 100
-        description: Mother tongne
+        description: Mother tongue
 
       - name: English
         percentage: 90
